@@ -31,5 +31,5 @@ if __name__ == '__main__':
 		ws = create_connection("wss://dropmail.me/websocket")
 		main(ws)
 	except KeyboardInterrupt:
-		sys.exit(0)
 		ws.close()
+		sys.exit(0)
