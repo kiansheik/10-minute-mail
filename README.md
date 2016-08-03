@@ -11,4 +11,5 @@ This is a command-line python client which generates an email address that lasts
 `python3 10minmail.py`
 
 It will then copy the resulting email to your clipboard
+<br>
 Any messages recieved will be printed to stdout.
